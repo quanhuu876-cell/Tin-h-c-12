@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Space</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080808;
+  color: white;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.profile {
+  width: 100%;
+  max-width: 380px;
+  padding: 35px 25px;
+  text-align: center;
+  background: #111;
+  border: 1px solid #292929;
+  border-radius: 20px;
+}
+
+.avatar {
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+  border: 2px solid #a855f7;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  color: #a855f7;
+  margin-top: 10px;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+.bio {
+  color: #999;
+  margin: 20px 0 25px;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.links a {
+  display: block;
+  padding: 14px;
+  margin-top: 12px;
+  text-decoration: none;
+  color: white;
+  background: #1c1c1c;
+  border: 1px solid #303030;
+  border-radius: 10px;
+  transition: .25s;
+}
+
+.links a:hover {
+  background: #7e22ce;
+  border-color: #a855f7;
+}
+
+footer {
+  color: #555;
+  margin-top: 28px;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+</style>
+</head>
+
+<body>
+  <main class="profile">
+
+    <img
+      class="avatar"
+      src="https://placehold.co/200x200/171717/a855f7?text=ME"
+      alt="Avatar"
+    >
+
+    <h1>MY SPACE</h1>
+    <p class="subtitle">JUST BE YOURSELF</p>
+
+    <p class="bio">
+      Không cần nổi bật giữa đám đông.<br>
+      Chỉ cần là phiên bản tốt nhất của mình.
+    </p>
+
+    <div class="links">
+      <a href="https://facebook.com/">Facebook ↗</a>
+      <a href="https://tiktok.com/">TikTok ↗</a>
+      <a href="https://instagram.com/">Instagram ↗</a>
+    </div>
+
+    <footer>WELCOME TO MY WORLD</footer>
+
+  </main>
+</body>
+</html>
